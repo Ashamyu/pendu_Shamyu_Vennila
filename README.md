@@ -5,5 +5,5 @@ This package contains a script pendu.c where a user needs to insert some alphabe
 git clone https://github.com/Ashamyu/pendu_Shamyu_Vennila.git
 
 ### To run this script
-gcc -o pendu_Shamyu_Vennila main.c pen.c pendu.h
-./pendu_Shamyu_Vennila
+cd bin
+./pendu
