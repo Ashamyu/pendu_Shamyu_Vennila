@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/src/main.c" "/home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/build/CMakeFiles/main.dir/src/main.c.o"
-  "/home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/src/pendu.c" "/home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/build/CMakeFiles/main.dir/src/pendu.c.o"
+  "/home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/src/main.c" "/home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/bin/CMakeFiles/pendu.dir/src/main.c.o"
+  "/home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/src/pendu.c" "/home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/bin/CMakeFiles/pendu.dir/src/pendu.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

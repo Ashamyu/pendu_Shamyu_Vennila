@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/build
+CMAKE_BINARY_DIR = /home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/bin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/build/CMakeFiles /home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/bin/CMakeFiles /home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/bin/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/asham/Documents/SE/pendu/pendu_Shamyu_Vennila/bin/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named pendu
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+pendu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pendu
+.PHONY : pendu
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+pendu/fast:
+	$(MAKE) -f CMakeFiles/pendu.dir/build.make CMakeFiles/pendu.dir/build
+.PHONY : pendu/fast
 
 src/main.o: src/main.c.o
 
@@ -129,7 +129,7 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.c.o
+	$(MAKE) -f CMakeFiles/pendu.dir/build.make CMakeFiles/pendu.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -138,7 +138,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.c.i
+	$(MAKE) -f CMakeFiles/pendu.dir/build.make CMakeFiles/pendu.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -147,7 +147,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.c.s
+	$(MAKE) -f CMakeFiles/pendu.dir/build.make CMakeFiles/pendu.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 src/pendu.o: src/pendu.c.o
@@ -156,7 +156,7 @@ src/pendu.o: src/pendu.c.o
 
 # target to build an object file
 src/pendu.c.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pendu.c.o
+	$(MAKE) -f CMakeFiles/pendu.dir/build.make CMakeFiles/pendu.dir/src/pendu.c.o
 .PHONY : src/pendu.c.o
 
 src/pendu.i: src/pendu.c.i
@@ -165,7 +165,7 @@ src/pendu.i: src/pendu.c.i
 
 # target to preprocess a source file
 src/pendu.c.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pendu.c.i
+	$(MAKE) -f CMakeFiles/pendu.dir/build.make CMakeFiles/pendu.dir/src/pendu.c.i
 .PHONY : src/pendu.c.i
 
 src/pendu.s: src/pendu.c.s
@@ -174,7 +174,7 @@ src/pendu.s: src/pendu.c.s
 
 # target to generate assembly for a file
 src/pendu.c.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pendu.c.s
+	$(MAKE) -f CMakeFiles/pendu.dir/build.make CMakeFiles/pendu.dir/src/pendu.c.s
 .PHONY : src/pendu.c.s
 
 # Help Target
@@ -184,7 +184,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... main"
+	@echo "... pendu"
 	@echo "... edit_cache"
 	@echo "... src/main.o"
 	@echo "... src/main.i"

@@ -6,5 +6,5 @@ include_directories(include)
 set(SOURCES src/pendu.c
             src/main.c)
 
-add_executable(main
+add_executable(pendu
                 ${SOURCES}) 

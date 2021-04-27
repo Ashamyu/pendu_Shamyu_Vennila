@@ -3,8 +3,7 @@
 #include<time.h>
 #include<ctype.h>
 #include<string.h>
-
-#include "pendu.h"
+#include "../include/pendu.h"
 
 int gagne(int lettreTrouvee[], long tailleMot);
 int rechercheLettre(char lettre, char motSecret[], int lettreTrouvee[]);

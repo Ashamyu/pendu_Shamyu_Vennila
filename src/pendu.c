@@ -3,8 +3,7 @@
 #include <time.h>
 #include<ctype.h>
 #include <string.h>
-
-#include "pendu.h"
+#include "../include/pendu.h"
 
 
 int piocherMot(char *motPioche)
@@ -15,15 +14,15 @@ int piocherMot(char *motPioche)
 
 ret:while(nivo){
 if (nivo== 1){
-    dico = fopen("facile.txt", "r");
+    dico = fopen("../resources/facile.txt", "r");
    goto next;
    }
 else if (nivo==2){
-    dico = fopen("moyen.txt", "r");
+    dico = fopen("../resources/moyen.txt", "r");
 goto next;
    }
 else if (nivo==3){
-    dico = fopen("difficile.txt", "r");
+    dico = fopen("../resources/difficile.txt", "r");
 goto next;
    }
 else{
